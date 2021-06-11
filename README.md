@@ -1,5 +1,6 @@
 ## Mixed Backgrounds
 This repository provides code for measuring a Gaussian gravitational-wave background in the presence of an astrophysical foreground, as described in https://arxiv.org/abs/2009.04418.
+You will need to install the following packages: [bilby](https://pypi.org/project/bilby/), [lalsuite](https://pypi.org/project/lalsuite/), and [cpnest](https://pypi.org/project/cpnest/) in addition to standard packages like `scipy`, `numpy`, and `matplotlib`.
 
 ### BBH Parameter Estimation
 The code is broken down into three stages. The first stage corresponds to performing standard compact binary parameter estimation on simulated data which includes a Gaussian background characterized by
